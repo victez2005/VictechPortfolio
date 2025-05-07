@@ -1,0 +1,635 @@
+* {}
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 20px 0px 20px;
+
+}
+
+.header {
+    background-color: whitesmoke;
+    display: flex;
+    position: fixed;
+    margin-top: -300px;
+    height: 70px;
+    margin-left: -30px;
+    width: 100%;
+
+
+
+}
+
+
+
+.logo {
+    margin-top: 9px;
+}
+
+.Navbar {
+    height: 30px;
+
+}
+
+.Navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 460PX;
+    margin-top: -8px;
+
+
+}
+
+.nav1 a {
+    color: aqua;
+}
+
+.nav2 a {
+    color: black;
+}
+
+.nav3 a {
+    color: black;
+}
+
+.nav4 a {
+    color: black;
+}
+
+.nav5 a {
+    color: black;
+}
+
+.Navbar ul a {
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: aqua;
+}
+
+.Navbar ul li {
+
+    font-size: 14px;
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+
+}
+
+.Navbar .drop1 .drp {
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.Navbar .drop1 .drp1 {
+    margin-left: 13px;
+    justify-content: center;
+}
+
+.drop1 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 100;
+    line-height: 30px;
+    background-color: transparent;
+    margin-left: -27px;
+}
+
+.nav5:hover .drop1 {
+    display: block;
+}
+
+.writeUp {
+    margin-top: 300px;
+    margin-bottom: 500px;
+}
+
+.writeUp .faint1 {
+    color: white;
+    font-size: 20px;
+}
+
+.writeUp .bold {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Tahoma, sans-serif;
+}
+
+
+.writeUp .appoint {
+    margin-top: 25px;
+
+}
+
+.appoint2 {
+    background-color: aqua;
+    height: 36px;
+    width: 190px;
+    font-size: 12px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.immg {
+    background: linear-gradient(rgba(79, 201, 238, 0.678), rgba(7, 140, 218, 0.616)), url(doooc.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1290px;
+    width: 100%;
+    min-height: 90vh;
+    color: white;
+    margin-top: -900px;
+}
+
+
+
+.speaca {
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+.speaca .speacail {
+    font-size: 35px;
+    margin-left: -20px;
+}
+
+.speaca .speacail2 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: -165px;
+    margin-top: -7px;
+}
+
+.speaca .speacail3 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: -82px;
+    margin-top: -10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.container .writ {
+    background-color: ghostwhite;
+    height: 86px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -23px;
+    color: black;
+    box-shadow: 5px 3px 3px whitesmoke;
+}
+
+.container .writ1 {
+    background-color: white;
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+
+}
+
+.container .faintwrit {
+    margin-top: 30px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.container .faintwrit .faintwrit1 {
+    font-size: 13px;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit .faintwrit2 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit .faintwrit3 {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+.container .wriit {
+    color: grey;
+}
+
+.con1 {
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.con1:hover {
+    transform: translateX(-20px);
+}
+
+.con1:hover .writ {
+    background-color: aqua;
+}
+
+
+
+.container .wriit {
+    margin-top: 40px;
+}
+
+.container .writ2 {
+    background-color: ghostwhite;
+    height: 84px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: -13px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+}
+
+.container .writc {
+    background-color: white;
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -20px;
+}
+
+.container .faintwrit2 {
+    margin-top: 30px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.container .faintwrit2 .faintwrit12 {
+    font-size: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit2 .faintwrit13 {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit2 .faintwrit14 {
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+
+.con2 {
+    cursor: pointer;
+    transition: all .10s ease-in-out;
+    z-index: -200px;
+
+}
+
+.con2:hover {
+    transform: translateY(-30px);
+}
+
+
+
+
+
+.con2:hover .writ2 {
+    background-color: aqua;
+}
+
+.container .wriit2 {
+    color: grey;
+    margin-top: -10px;
+
+}
+
+.container .con2 {
+    margin-left: -15px;
+}
+
+
+.container .writ3 {
+    background-color: ghostwhite;
+    height: 84px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: -13px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+}
+
+.container .writ3c {
+    background-color: white;
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -20px;
+}
+
+.container .faintwrit3 {
+    margin-top: -105px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.container .faintwrit3 .faint13 {
+    font-size: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit3 .faint14 {
+    font-size: 15px;
+    margin-left: 43px;
+    margin-top: -21px;
+    font-weight: lighter;
+}
+
+
+.container .faintwrit3 .faint15 {
+    font-size: 15px;
+    margin-left: 66px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+.con3 {
+    cursor: pointer;
+    transition: all .10s ease-in-out;
+}
+
+.con3:hover {
+    transform: translateY(-30px);
+}
+
+
+.con3:hover .writ3 {
+    background-color: aqua;
+}
+
+.container .wriit3 {
+    color: grey;
+    margin-top: -10px;
+
+}
+
+.container .con3 {
+    margin-left: -20px;
+}
+
+.container .writ4 {
+    background-color: ghostwhite;
+    height: 84px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: -13px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+}
+
+.container .writ4c {
+    background-color: white;
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -20px;
+}
+
+.container .faintwrit4 {
+    margin-top: -105px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.container .faintwrit4 .faint144 {
+    font-size: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit4 .faint145 {
+    font-size: 15px;
+    margin-left: 43px;
+    margin-top: -21px;
+    font-weight: lighter;
+}
+
+
+.container .faintwrit4 .faint156 {
+    font-size: 15px;
+    margin-left: 66px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+
+.con2 {
+    cursor: pointer;
+    transition: all .10s ease-in-out;
+}
+
+.con4:hover {
+    transform: translateX(30px);
+}
+
+
+
+.con4:hover .writ4 {
+    background-color: aqua;
+}
+
+.container .wriit {
+    color: grey;
+    margin-top: -10px;
+
+}
+
+.container .con4 {
+    margin-right: 60px;
+}
+
+
+.emergency {
+    background: linear-gradient(rgba(79, 201, 238, 0.678), rgba(7, 140, 218, 0.616)), url(plane\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1290px;
+    width: 100%;
+    min-height: 60vh;
+    color: white;
+}
+
+
+
+.emergency .emer1 {
+    font-size: 30px;
+    font-weight: 50px;
+    font-family: sans-serif;
+    margin-left: 490px;
+    padding-top: 130px;
+
+}
+
+.emergency .emer2 {
+    font-size: 50px;
+    font-weight: 50px;
+    font-family: sans-serif;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+
+
+.emergency .emer3 {
+    font-size: 12px;
+    font-weight: 20px;
+    font-family: sans-serif;
+    margin-left: 426px;
+    margin-top: -40px;
+}
+
+.emergency .emer4 {
+    font-size: 12px;
+    font-weight: 10px;
+    font-family: sans-serif;
+    margin-left: 545px;
+    margin-top: -10px;
+}
+
+.flutter {
+    background-color: black;
+    margin-top: -30px;
+}
+
+.flutter .flucon {
+    padding-top: 100px;
+}
+
+.flutter .flucon ul {
+    display: block;
+    list-style: none;
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
+.flutter .topProduct ul li a {
+    color: white;
+}
+
+.flutter ul a {
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+
+
+.flutter ul li a:hover {
+    color: blue;
+}
+
+.flutter .flucon .pro {
+    color: white;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.flutter .flucon .newsletter {
+    color: white;
+}
+
+.flutter .flucon .newsletter .letter {
+    font-size: 17px;
+}
+
+.flutter .flucon .newsletter .letter2 {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.flutter .flucon .newsletter .email {
+    font-size: 17px;
+    height: 30px;
+    width: 240px;
+    margin-top: 10px;
+}
+
+.flutter .flucon .newsletter .submit {
+    font-size: 17px;
+    background: linear-gradient(rgba(79, 201, 238, 0.678), rgba(7, 140, 218, 0.616));
+    border: 20px;
+    height: 35px;
+    width: 100px;
+
+}
+
+.flutter .flucon .instgram {
+    font-size: 8px;
+    font-weight: lighter;
+    color: white;
+}
+
+
+.flutter .flucon .instgram .imgdiv {
+    display: grid;
+    grid-template-columns: 65px 65px 65px auto;
+
+}
+
+.flutter .flucon .instgram .imgdiv2 {
+    display: grid;
+    grid-template-columns: 65px 65px 65px auto;
+    margin-top: 10px;
+
+}
+
+.flutter .flucon .copywrite {
+    color: white;
+    font-size: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+
+}
+
+
+
+.flutter .flucon {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

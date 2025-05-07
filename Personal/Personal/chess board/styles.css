@@ -1,0 +1,20 @@
+table {
+    border: 1px solid black;
+}
+
+th {
+    height: 100px;
+    width: 100px;
+}
+
+body{
+    zoom: 75%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}

@@ -1,0 +1,105 @@
+.head{
+    background:  url(jasper\ music.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1290px;
+    width: 100%;
+    min-height: 110vh;
+    color: white;
+}
+
+.Jaz{
+    margin-top: 300px;
+    font-size: 100px;
+    margin-left: 20px;
+}
+
+.Jaz h2{
+    font-size: 100px;
+    font-weight: lighter;
+    margin-left: 400px;
+    margin-top: -120px;
+    color: olivedrab;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.navbar{
+    
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300PX;
+    margin-top: -47px;
+    width: 30px;
+
+
+}
+
+.nav1 a {
+    color: aqua;
+}
+
+.nav2 a {
+    color: white;
+}
+
+.nav3 a {
+    color: white;
+}
+
+.nav4 a {
+    color:white;
+}
+
+.nav5 a {
+    color: white;
+}
+
+.navbar ul a {
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: aqua;
+}
+
+.navbar ul li {
+
+    font-size: 14px;
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+
+}
+
+.navbar .drop1 .drp {
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.navbar .drop1 .drp1 {
+    margin-left: 13px;
+    justify-content: center;
+}
+
+.drop1 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 100;
+    line-height: 30px;
+    background-color: transparent;
+    margin-left: -27px;
+}
+
+.nav5:hover .drop1 {
+    display: block;
+}

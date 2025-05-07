@@ -1,0 +1,1574 @@
+body {
+    background: url(OIP.jpg);
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+.header {
+    background-color: whitesmoke;
+    display: flex;
+
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.Navbar {
+    padding-left: 300px;
+    height: -30px;
+
+    /* list-style: none; */
+}
+
+.Navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-left: 160PX;
+
+
+}
+
+.nav1 a {
+    color: aqua;
+}
+
+.nav2 a {
+    color: black;
+}
+
+.nav3 a {
+    color: black;
+}
+
+.nav4 a {
+    color: black;
+}
+
+.nav5 a {
+    color: black;
+}
+
+.Navbar ul a {
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: aqua;
+}
+
+.Navbar ul li {
+
+    font-size: 14px;
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+
+}
+
+.Navbar .drop1 .drp {
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.Navbar .drop1 .drp1 {
+    margin-left: 13px;
+    justify-content: center;
+}
+
+.drop1 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 100;
+    line-height: 30px;
+    background-color: transparent;
+    margin-left: -27px;
+}
+
+.nav5:hover .drop1 {
+    display: block;
+}
+
+.writeUp {
+    margin-top: 300px;
+}
+
+.writeUp .faint1 {
+    color: white;
+    font-size: 20px;
+}
+
+.writeUp .bold {
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Tahoma, sans-serif;
+}
+
+.writeUp .faint2 {
+    color: black;
+    font-size: 15px;
+}
+
+.writeUp .appoint {
+    margin-top: 25px;
+
+}
+
+.appoint2 {
+    background-color: aqua;
+    height: 36px;
+    width: 190px;
+    font-size: 12px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.CONTEZ {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 400px;
+    margin-left: 70px;
+}
+
+.CONTEZ .writ1 {
+    background-color: ghostwhite;
+    height: 86px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -23px;
+    color: black;
+    box-shadow: 5px 3px 3px whitesmoke;
+}
+
+.CONTEZ .writ1 {
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+
+}
+
+.CONTEZ .CONZ1 .feature {
+    margin-left: 82px;
+    margin-top: 40px;
+
+}
+
+.CONTEZ .CONZ1 .writ1 h1 {
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 23px;
+}
+
+.CONTEZ .faintwrit {
+    margin-top: -10px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.CONTEZ .faintwrit .faintwrit1 {
+    font-size: 13px;
+    margin-left: 45px;
+    margin-top: -30px;
+    font-weight: lighter;
+}
+
+.CONTEZ .faintwrit .faintwrit2 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+.CONTEZ .faintwrit .faintwrit3 {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+.CONTEZ .wriit {
+    color: grey;
+}
+
+.CONZ1 {
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    background-color: ghostwhite;
+    width: 260px;
+}
+
+.CONZ1:hover {
+    transform: translateX(5px);
+    /* transform: translate(3px); */
+    background-color: white;
+    box-shadow: 7px 7px whitesmoke;
+}
+
+.CONTEZ .wriit {
+    margin-top: 40px;
+}
+
+
+
+.CONTEZ .writ2 {
+    background-color: ghostwhite;
+    height: 86px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -23px;
+    color: black;
+    box-shadow: 5px 3px 3px whitesmoke;
+}
+
+.CONTEZ .writ2 {
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+
+}
+
+.CONTEZ .CONZ2 .feature2 {
+    margin-left: 82px;
+    margin-top: 40px;
+
+}
+
+.CONTEZ .CONZ2 .writ2 h1 {
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 23px;
+}
+
+.CONTEZ .faintwrit2 {
+    margin-top: -10px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.CONTEZ .faintwrit2 .faintwrit1 {
+    font-size: 13px;
+    margin-left: 45px;
+    margin-top: -30px;
+    font-weight: lighter;
+}
+
+.CONTEZ .faintwrit2 .faintwrit2 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+.CONTEZ .faintwrit2 .faintwrit3 {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+.CONTEZ .wriit2 {
+    color: grey;
+}
+
+.CONZ2 {
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    background-color: ghostwhite;
+    width: 260px;
+}
+
+.CONZ2:hover {
+    transform: translateX(5px);
+    /* transform: translate(3px); */
+    background-color: white;
+    box-shadow: 7px 7px whitesmoke;
+}
+
+.CONTEZ .wriit2 {
+    margin-top: 40px;
+}
+
+
+
+
+.CONTEZ .writ3 {
+    background-color: ghostwhite;
+    height: 86px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -23px;
+    color: black;
+    box-shadow: 5px 3px 3px whitesmoke;
+}
+
+.CONTEZ .writ3 {
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+
+}
+
+.CONTEZ .CONZ3 .feature3 {
+    margin-left: 82px;
+    margin-top: 40px;
+
+}
+
+.CONTEZ .CONZ3 .writ3 h1 {
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 23px;
+}
+
+.CONTEZ .faintwrit3 {
+    margin-top: -10px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.CONTEZ .faintwrit3 .faintwrit1 {
+    font-size: 13px;
+    margin-left: 45px;
+    margin-top: -30px;
+    font-weight: lighter;
+}
+
+.CONTEZ .faintwrit3 .faintwrit2 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+.CONTEZ .faintwrit3 .faintwrit3 {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+.CONTEZ .wriit3 {
+    color: grey;
+}
+
+.CONZ3 {
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    background-color: ghostwhite;
+    width: 260px;
+}
+
+.CONZ3:hover {
+    transform: translateX(5px);
+    /* transform: translate(3px); */
+    background-color: white;
+    box-shadow: 7px 7px whitesmoke;
+}
+
+.CONTEZ .wriit3 {
+    margin-top: 40px;
+}
+
+
+.CONTEZ .writ4 {
+    background-color: ghostwhite;
+    height: 86px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -23px;
+    color: black;
+    box-shadow: 5px 3px 3px whitesmoke;
+}
+
+.CONTEZ .writ4 {
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+
+}
+
+.CONTEZ .CONZ4 .feature4 {
+    margin-left: 82px;
+    margin-top: 40px;
+
+}
+
+.CONTEZ .CONZ4 .writ4 h1 {
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 23px;
+}
+
+.CONTEZ .faintwrit4 {
+    margin-top: -10px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.CONTEZ .faintwrit4 .faintwrit1 {
+    font-size: 13px;
+    margin-left: 45px;
+    margin-top: -30px;
+    font-weight: lighter;
+}
+
+.CONTEZ .faintwrit4 .faintwrit2 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+.CONTEZ .faintwrit4 .faintwrit3 {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+.CONTEZ .wriit4 {
+    color: grey;
+}
+
+.CONZ4 {
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    background-color: ghostwhite;
+    width: 260px;
+}
+
+.CONZ4:hover {
+    transform: translateX(5px);
+    /* transform: translate(3px); */
+    background-color: white;
+    box-shadow: 7px 7px whitesmoke;
+}
+
+.CONTEZ .wriit4 {
+    margin-top: 40px;
+}
+
+
+.CLINIC{
+margin-left: 300px;
+background-color: white;
+margin-top: 50px;
+}
+
+.CLINIC .image  img{
+    margin-left: -100px;
+    margin-top: 110px;
+    margin-bottom: 300px;
+}
+
+.CLINIC .welcomebox{
+    margin-left: 300px;
+    margin-top: -740px;
+    margin-bottom: 200px;
+    background-color: white;
+    box-shadow: 20px 20px 20px 20px whitesmoke;
+    height: 400px;
+}
+
+.CLINIC .welcomebox h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 5000px;
+    margin-left: 200px;
+    padding-top: 70px;
+}
+
+.CLINIC .welcomebox .faintwlcome1 h1{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+    margin-top: -70px;
+}
+
+.CLINIC .welcomebox .faintwlcome1 h2{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+    margin-left: 200px;
+}
+
+.CLINIC .welcomebox .faintwlcome1 h3{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+    margin-left: 200px;
+}
+
+.CLINIC  .faintwelcome2 h1{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+
+.CLINIC  .faintwelcome2 h2{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+    margin-left: 200px;
+}
+
+.CLINIC  .faintwelcome2 h3{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+    margin-left: 200px;
+}
+
+.CLINIC button{
+        background-color: aqua;
+        height: 36px;
+        width: 130px;
+        font-size: 12px;
+        border: 30px;
+        color: white;
+        font-weight: bold;
+    cursor: pointer;
+    margin-left: 200px;
+    
+}
+
+.Popular{
+    background-color: ghostwhite;
+    height: 300px;
+}
+
+.Popular .popular1{
+    padding-top: 80px;
+}
+
+.Popular .popular1 h1{
+font-family: sans-serif;
+font-size: 30px;
+font-weight: bolder;
+margin-left: 500px;
+color: black;
+
+}
+
+.Popular .popular1 h2{
+    font-size: 15px;
+    font-weight: 10px;
+    margin-left: 349px;
+    color: gray;
+}
+
+.Popular .popular1 h3{
+    font-size: 15px;
+    font-weight: 10px;
+    margin-left: 469px;
+    color: gray;
+}
+
+
+
+
+.patient .areSaying h1{
+font-family: sans-serif;
+font-size: 30px;
+font-weight: bolder;
+margin-left: 500px;
+color: black;
+
+}
+
+.patient .areSaying h2{
+    font-size: 15px;
+    font-weight: 10px;
+    margin-left: 349px;
+    color: gray;
+}
+
+.patient .areSaying h3{
+    font-size: 15px;
+    font-weight: 10px;
+    margin-left: 469px;
+    color: gray;
+}
+
+
+.patient2 .papa2 {
+    background-color: ghostwhite;
+    height: 86px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -203px;
+    color: black;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-bottom: -400px;
+    
+    
+}
+
+.patient2 .papa2 {
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -70px;
+    height: 300px;
+    width: 400px;
+}
+
+.patimg2 .patientimg2 {
+    margin-left: 46px;
+    padding-top: -70px;
+
+}
+
+.patient2 .papa2 .writpa2 h1 {
+    font-size: 17px;
+    padding-top: 90px;
+    margin-left: 47px;
+}
+
+.patient2 .papa2 .writpa2 h2 {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 53px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.patient2 .faintwritpa2 {
+    margin-top: -20px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.patient2 .writpa2 .faintwritpa2 .faintwrit1 {
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: -60px;
+    font-weight: lighter;
+}
+
+.patient2 .writpa2 .faintwritpa2 .faintwrit2 {
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: -19px;
+    font-weight: lighter;
+}
+
+.patient2 .faintwritpa2 .faintwrit3 {
+    font-size: 15px;
+    margin-left: 42px;
+    margin-top: -21px;
+    font-weight: lighter;
+}
+
+.patient22 .wriitpa2 {
+    color: grey;
+    
+}
+
+.patient2 {
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    background-color: white;
+    width: 260px;
+   margin-left: 100px;
+   margin-top: 90px;
+}
+
+.patient2:hover {
+    transform: translateX(5px);
+    /* transform: translate(3px); */
+    background-color: white;
+    box-shadow: 7px 7px white;
+}
+
+.patient2 .wriitpa2 {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+.patient1 .papa {
+    background-color: ghostwhite;
+    height: 86px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -23px;
+    color: black;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-bottom: 300px;
+    
+}
+
+.patient1 .papa {
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -70px;
+    height: 300px;
+    width: 400px;
+}
+
+.patimg .patientimg1 {
+    margin-left: 46px;
+    padding-top: -70px;
+
+}
+
+.patient1 .papa .writpa h1 {
+    font-size: 17px;
+    padding-top: 90px;
+    margin-left: 47px;
+}
+
+.patient1 .papa .writpa h2 {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 53px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.patient1 .faintwritpa {
+    margin-top: -20px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.patient1 .writpa .faintwritpa .faintwrit1 {
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: -60px;
+    font-weight: lighter;
+}
+
+.patient1 .writpa .faintwritpa .faintwrit2 {
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: -19px;
+    font-weight: lighter;
+}
+
+.patient1 .faintwritpa .faintwrit3 {
+    font-size: 15px;
+    margin-left: 42px;
+    margin-top: -21px;
+    font-weight: lighter;
+}
+
+.patient1 .wriitpa {
+    color: grey;
+    
+}
+
+.patient1 {
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    background-color: white;
+    width: 260px;
+   margin-left: 100px;
+   margin-top: 490px;
+}
+
+.patient1:hover {
+    transform: translateX(5px);
+    /* transform: translate(3px); */
+    background-color: white;
+    box-shadow: 7px 7px white;
+}
+
+.patient1 .wriitpa {
+    margin-top: 40px;
+}
+
+
+
+
+
+.AointmentNow{
+    background: linear-gradient(rgba(79, 201, 238, 0.678), rgba(7, 140, 218, 0.616)), url(department1.jpg); 
+    background-repeat: no-repeat;
+    background-size: 1090px;
+    width: 460px;
+    min-height: 100vh;
+margin-left: 600px;
+   margin-top: -1030px;
+   margin-bottom: 200px;
+
+}
+
+.AointmentNow .Appointment{
+    color: white;
+    font-family: sans-serif;
+    
+    
+}
+
+.AointmentNow .Appointment h1{
+    font-size: 20px;
+    padding-top: 50px;
+    margin-left: 120px;
+    
+}
+
+
+.AointmentNow .Appointment .filling{
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 90px;
+    
+}
+
+.AointmentNow .Appointment .filling .Name{
+   height: 40px;
+   width: 290px;
+}
+
+.AointmentNow .Appointment .filling .email{
+    height: 40px;
+    width: 290px;
+ }
+
+ .AointmentNow .Appointment .filling .date{
+    height: 40px;
+    width: 290px;
+ }
+
+ .AointmentNow .Appointment .filling .message{
+    height: 100px;
+    width: 290px;
+ }
+
+ .AointmentNow .Appointment .filling  button{
+    background-color: rgb(129, 185, 248);
+    border: 30px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+ }
+
+
+
+ .speaca {
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+.speaca .speacail {
+    font-size: 35px;
+    margin-left: -20px;
+}
+
+.speaca .speacail2 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: -165px;
+    margin-top: -7px;
+}
+
+.speaca .speacail3 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: -82px;
+    margin-top: -10px;
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.container .writ {
+    background-color: ghostwhite;
+    height: 86px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -23px;
+    color: black;
+    box-shadow: 5px 3px 3px whitesmoke;
+}
+
+.container .writ1 {
+    background-color: white;
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+
+}
+
+.container .faintwrit {
+    margin-top: 30px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.container .faintwrit .faintwrit1 {
+    font-size: 13px;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit .faintwrit2 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit .faintwrit3 {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+.container .wriit {
+    color: grey;
+}
+
+.con1 {
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.con1:hover {
+    transform: translateX(-20px);
+}
+
+.con1:hover .writ {
+    background-color: aqua;
+}
+
+
+
+.container .wriit {
+    margin-top: 40px;
+}
+
+.container .writ2 {
+    background-color: ghostwhite;
+    height: 84px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: -13px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+}
+
+.container .writc {
+    background-color: white;
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -20px;
+}
+
+.container .faintwrit2 {
+    margin-top: 30px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.container .faintwrit2 .faintwrit12 {
+    font-size: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit2 .faintwrit13 {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit2 .faintwrit14 {
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+
+.con2 {
+    cursor: pointer;
+    transition: all .10s ease-in-out;
+    z-index: -200px;
+
+}
+
+.con2:hover {
+    transform: translateY(-30px);
+}
+
+
+
+
+
+.con2:hover .writ2 {
+    background-color: aqua;
+}
+
+.container .wriit2 {
+    color: grey;
+    margin-top: -10px;
+
+}
+
+.container .con2 {
+    margin-left: -15px;
+}
+
+
+.container .writ3 {
+    background-color: ghostwhite;
+    height: 84px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: -13px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+}
+
+.container .writ3c {
+    background-color: white;
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -20px;
+}
+
+.container .faintwrit3 {
+    margin-top: -105px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.container .faintwrit3 .faint13 {
+    font-size: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit3 .faint14 {
+    font-size: 15px;
+    margin-left: 43px;
+    margin-top: -21px;
+    font-weight: lighter;
+}
+
+
+.container .faintwrit3 .faint15 {
+    font-size: 15px;
+    margin-left: 66px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+.con3 {
+    cursor: pointer;
+    transition: all .10s ease-in-out;
+}
+
+.con3:hover {
+    transform: translateY(-30px);
+}
+
+
+.con3:hover .writ3 {
+    background-color: aqua;
+}
+
+.container .wriit3 {
+    color: grey;
+    margin-top: -10px;
+
+}
+
+.container .con3 {
+    margin-left: -20px;
+}
+
+.container .writ4 {
+    background-color: ghostwhite;
+    height: 84px;
+    width: 258px;
+    font-size: 9px;
+    border: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: -13px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -5px;
+}
+
+.container .writ4c {
+    background-color: white;
+    width: 258px;
+    height: 190px;
+    box-shadow: 5px 3px 3px whitesmoke;
+    margin-top: -20px;
+}
+
+.container .faintwrit4 {
+    margin-top: -105px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.container .faintwrit4 .faint144 {
+    font-size: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container .faintwrit4 .faint145 {
+    font-size: 15px;
+    margin-left: 43px;
+    margin-top: -21px;
+    font-weight: lighter;
+}
+
+
+.container .faintwrit4 .faint156 {
+    font-size: 15px;
+    margin-left: 66px;
+    margin-top: -27px;
+    font-weight: lighter;
+}
+
+
+.con2 {
+    cursor: pointer;
+    transition: all .10s ease-in-out;
+}
+
+.con4:hover {
+    transform: translateX(30px);
+}
+
+
+
+.con4:hover .writ4 {
+    background-color: aqua;
+}
+
+.container .wriit {
+    color: grey;
+    margin-top: -10px;
+
+}
+
+.container .con4 {
+    margin-right: 60px;
+}
+
+.emergency {
+    background: linear-gradient(rgba(79, 201, 238, 0.678), rgba(7, 140, 218, 0.616)), url(plane\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1290px;
+    width: 100%;
+    min-height: 60vh;
+    color: white;
+}
+
+
+
+.emergency .emer1 {
+    font-size: 30px;
+    font-weight: 50px;
+    font-family: sans-serif;
+    margin-left: 490px;
+    padding-top: 130px;
+
+}
+
+.emergency .emer2 {
+    font-size: 50px;
+    font-weight: 50px;
+    font-family: sans-serif;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+
+
+.emergency .emer3 {
+    font-size: 12px;
+    font-weight: 20px;
+    font-family: sans-serif;
+    margin-left: 426px;
+    margin-top: -40px;
+}
+
+.emergency .emer4 {
+    font-size: 12px;
+    font-weight: 10px;
+    font-family: sans-serif;
+    margin-left: 545px;
+    margin-top: -10px;
+}
+
+
+.recent{
+
+}
+
+.recent .news{
+color: black;
+}
+
+
+.recent .news h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 490px;
+}
+
+.recent .news h2 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 365px;
+    margin-top: -7px;
+}
+
+.recent .news h3 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 465px;
+    margin-top: -10px;
+}
+
+.recent .newsdiv{
+    display: grid;
+    grid-template-columns:  auto auto auto;
+}
+
+.recent .newsdiv .news1{
+    margin-left: 50px;
+}
+
+.recent .newsdiv .date1 button {
+    font-size: 15px;
+    background-color: aqua;
+    width: 105px;
+    height: 40px;
+    border: 30px;
+    color: white;
+}
+
+.recent .newsdiv .date1{
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+.recent .newsdiv .date2{
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+.recent .newsdiv .date2 button{
+    font-size: 15px;
+    background-color: aqua;
+    width: 105px;
+    height: 40px;
+    border: 30px;
+    color: white;
+}
+
+.recent .newsdiv .date3{
+    margin-top: -25px;
+    margin-left: 10px;
+    
+}
+
+.recent .newsdiv .date3 button{
+    font-size: 15px;
+    background-color: aqua;
+    width: 105px;
+    height: 40px;
+    border: 30px;
+    color: white;
+}
+
+.recent .newsdiv .news1 .faintnews1{
+color: black;
+}
+
+.recent .newsdiv .news1 .faintnews1 h1{
+    font-size: 15px;
+    font-family: serif;
+}
+
+.recent .newsdiv .news1 .faintnews1 h2{
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    margin-top: -15px;
+    font-weight: lighter;
+}
+
+.recent .newsdiv .news1 .faintnews1 h3{
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    margin-top: -8px;
+    font-weight: lighter;
+}
+
+.recent .newsdiv .news1 .faintnews1 h4{
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    margin-top: -10px;
+    font-weight: lighter;
+}
+
+.news1:hover h1{
+    color: aqua;
+}
+
+.recent .newsdiv .news2 .faintnews2 h1{
+    font-size: 15px;
+    font-family: serif;
+}
+
+.recent .newsdiv .news2 .faintnews2 h2{
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    margin-top: -15px;
+    font-weight: lighter;
+}
+
+.recent .newsdiv .news2 .faintnews2 h3{
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    margin-top: -8px;
+    font-weight: lighter;
+}
+
+.recent .newsdiv .news2 .faintnews2 h4{
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    margin-top: -10px;
+    font-weight: lighter;
+}
+
+.news2:hover h1{
+    color: aqua;
+}
+
+.recent .newsdiv .news3 .faintnews3 h1{
+    font-size: 15px;
+    font-family: serif;
+}
+
+.recent .newsdiv .news3 .faintnews3 h2{
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    margin-top: -15px;
+    font-weight: lighter;
+}
+
+.recent .newsdiv .news3 .faintnews3 h3{
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    margin-top: -8px;
+    font-weight: lighter;
+}
+
+.recent .newsdiv .news3 .faintnews3 h4{
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    margin-top: -10px;
+    font-weight: lighter;
+}
+
+.news3:hover h1  {
+ color: aqua;
+}
+
+
+
+.flutter {
+    background-color: black;
+    margin-top: 5px;
+}
+
+.flutter .flucon {
+    padding-top: 100px;
+}
+
+.flutter .flucon ul {
+    display: block;
+    list-style: none;
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
+.flutter .topProduct ul li a {
+    color: white;
+}
+
+.flutter ul a {
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+
+
+.flutter ul li a:hover {
+    color: blue;
+}
+
+.flutter .flucon .pro {
+    color: white;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.flutter .flucon .newsletter {
+    color: white;
+}
+
+.flutter .flucon .newsletter .letter {
+    font-size: 17px;
+}
+
+.flutter .flucon .newsletter .letter2 {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.flutter .flucon .newsletter .email {
+    font-size: 17px;
+    height: 30px;
+    width: 240px;
+    margin-top: 10px;
+}
+
+.flutter .flucon .newsletter .submit {
+    font-size: 17px;
+    background: linear-gradient(rgba(79, 201, 238, 0.678), rgba(7, 140, 218, 0.616));
+    border: 20px;
+    height: 35px;
+    width: 100px;
+
+}
+
+.flutter .flucon .instgram {
+    font-size: 8px;
+    font-weight: lighter;
+    color: white;
+}
+
+
+.flutter .flucon .instgram .imgdiv {
+    display: grid;
+    grid-template-columns: 65px 65px 65px auto;
+
+}
+
+.flutter .flucon .instgram .imgdiv2 {
+    display: grid;
+    grid-template-columns: 65px 65px 65px auto;
+    margin-top: 10px;
+
+}
+
+.flutter .flucon .copywrite {
+    color: white;
+    font-size: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+
+}
+
+
+
+.flutter .flucon {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

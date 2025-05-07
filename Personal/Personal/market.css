@@ -1,0 +1,228 @@
+.head{
+    background: url(market\ image\ 4.webp);
+    background-repeat: no-repeat;
+    background-size: 1290px;
+    width: 100%;
+    min-height: 110vh;
+    color: white;
+    margin-top: -100px;
+}
+
+
+.Jaz{
+    margin-top: 300px;
+    font-size: 100px;
+    margin-left: 20px;
+    color: red;
+}
+
+.Jaz h2{
+    font-size: 100px;
+    font-weight: lighter;
+    margin-left: 300px;
+    margin-top: -120px;
+    color: olivedrab;
+}
+
+.logo{
+    margin-top: 3px;
+    margin-left: 70px;
+}
+
+.navbar{
+    margin-top: 100px;
+    
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200PX;
+    margin-top: -47px;
+    width: 30px;
+
+
+}
+
+.nav1 a {
+    color: aqua;
+}
+
+.nav2 a {
+    color: gold;
+}
+
+.nav3 a {
+    color: gold;
+}
+
+.nav4 a {
+    color:gold;
+}
+
+.nav5 a {
+    color: gold;
+}
+
+.navbar ul a {
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: aqua;
+}
+
+.navbar ul li {
+
+    font-size: 14px;
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+
+}
+
+.navbar .drop1 .drp {
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.navbar .drop1 .drp1 {
+    margin-left: 13px;
+    justify-content: center;
+}
+
+.drop1 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 100;
+    line-height: 30px;
+    background-color: transparent;
+    margin-left: -27px;
+}
+
+.nav5:hover .drop1 {
+    display: block;
+}
+
+.imgSamples{
+    margin-top: 120px;
+}
+
+.imgSamples h1{
+    margin-top: -20px;
+    margin-left: 737px;
+    color: red;
+}
+
+.service h2{
+    margin-top: 250px;
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    margin-left: 10px;
+}
+
+.sampls{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -330px;
+}
+
+
+.faint{
+    opacity: 0%;
+    background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: translateY(40px)
+        
+    
+    }
+
+
+    .faint h1{
+        margin-left: 90px;
+        margin-top: 160px;
+        font-size: 70px;
+    }
+
+
+    .sample1:hover {
+        transform: scale(1);
+        transition: 1s ease;
+        height: 200px;
+    }
+    .sample1{
+        position: relative;
+    }
+    
+
+    .sample1:hover .faint{
+        opacity: 0.5;
+        background-color: antiquewhite;
+        transform: scale(1);
+        transition: 1s ease;
+        height: 400px;
+        box-shadow: 2px, 2px, 2px brown ;
+        transform: translateY(220px)
+      
+    }
+
+.sample1{
+    margin-left: 370px;
+}
+
+
+.sample2{
+    position: relative;
+
+}
+
+
+.sample2:hover{
+    transform: scale(1);
+    transition: 1s ease;
+    height: 200px;
+    
+}
+
+.sample2:hover .faint2{
+    opacity: 0.5;
+    background-color: antiquewhite;
+    transform: scale(1);
+    transition: 1s ease;
+    height: 400px;
+    box-shadow: 2px, 2px, 2px brown ;
+    transform: translateY(220px)
+    
+  
+}
+
+
+
+
+.faint2{
+    opacity: 0%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(40px)
+    
+}
+
+
+
+.faint2 h1{
+    margin-left: 90px;
+    margin-top: 160px;
+    font-size: 70px;
+}

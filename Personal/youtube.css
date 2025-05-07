@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.grid1{
+}
+@media only screen and (max-width: 900px){
+    body{
+    background-color: black ;
+    .grid1{
+        grid-area: header;
+        display: flex;
+        list-style: none;
+        justify-content: right;
+        float: right;
+        margin-left: -600px;
+        margin-top: -660px;
+        color: black;
+    }
+}
+}
